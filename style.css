@@ -1,0 +1,267 @@
+body {
+    margin: 0;
+    font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+}
+
+a {
+    color: #273849;
+    text-decoration: none;
+}
+
+.header {
+    padding: 10px 60px;
+    height: 40px;
+    background-color: #fff;
+    position: relative;
+}
+
+.header .logo {
+    font-size: 1.5em;
+    color: #273849;
+    text-decoration: none;
+    font-family: "Dosis", "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    line-height: 40px;
+
+}
+
+.header .nav {
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    box-sizing: border-box;
+}
+
+.outline-lineedit {
+    border: 1px solid #e3e3e3;
+    border-radius: 15px;
+    line-height: 30px;
+    height: 30px;
+    vertical-align: middle !important;
+    margin-right: 10px;
+    outline: none;
+    padding: 0 15px 0 30px;
+    color: #273849;
+    transition: border-color 0.2s ease;
+    background: #fff url("/image/search.png") 8px 5px no-repeat;
+    background-size: 20px;
+}
+
+.outline-lineedit:focus {
+    border-color: #42b983;
+}
+
+.nav li {
+    color: #273849;
+    margin: 0 0.5em;
+    cursor: pointer;
+    font-size: 16px;
+    padding-right: 0.8em;
+    display: inline-block;
+}
+
+.arrow {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -1px;
+    margin-left: 6px;
+    margin-right: -14px;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 5px solid #4f5959;
+}
+
+.hero {
+    padding: 40px 40px 30px;
+}
+
+.inner {
+    max-width: 1260px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero-logo {
+    height: 215px;
+    width: 215px;
+    padding-right: 55px;
+    float: right;
+}
+
+.left {
+    width: 39%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.right {
+    width: calc(61% - 5px);
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+.hero h1 {
+    font-weight: 300;
+    margin: 0;
+    font-size: 3.2em;
+    color: #273849;
+}
+
+.primary-button {
+    margin: 1em 0;
+    font-size: 1.05em;
+    font-weight: 600;
+    text-align: center;
+
+    padding: 0.83em 2em;
+    vertical-align: top;
+    background-color: #42b983;
+    color: #fff;
+    letter-spacing: 0.1em;
+
+    border-radius: 2em;
+    border-style: solid;
+    border-color: #42b983;
+    border-width: 1px;
+
+    min-width: 8em;
+    box-sizing: border-box;
+    display: inline-block;
+    
+    position: relative;
+    text-indent: 1.05em;
+    margin-right: 6px;
+}
+
+.outline-button {
+    margin: 1em 0;
+    font-size: 1.05em;
+    font-weight: 600;
+    text-align: center;
+
+    padding: 0.75em 2em;
+    background-color: #fff;
+    color: #42b983;
+    letter-spacing: 0.1em;
+
+    border-radius: 2em;
+    border-style: solid;
+    border-color: #42b983;
+    border-width: 1px;
+
+    min-width: 8em;
+    box-sizing: border-box;
+    display: inline-block;
+
+    margin-right: 6px;
+}
+
+.label-button {
+    margin: 1em 0;
+    font-size: 1.05em;
+    font-weight: 400;
+    text-align: center;
+
+    padding: 0.75em 2em;
+    background-color: #fff;
+    letter-spacing: 0.1em;
+
+    min-width: 8em;
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    text-indent: 1em;
+}
+
+.primary-button svg {
+    position: absolute;
+    left: 0.4em;
+    top: 0.4em;
+    width: 2em;
+}
+
+.label-button svg {
+    position: absolute;
+    left: 0.4em;
+    top: 0.4em;
+    width: 2em;
+    color: #273849;
+}
+
+h3 {
+    font-weight: 600;
+    color: #273849;
+}
+
+.point {
+    display: inline-block;
+    width: 33%;
+    padding: 0 2em;
+    box-sizing: border-box;
+}
+
+.highlights .inner {
+    max-width: 900px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+.point span {
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #42b983;
+}
+
+.news .outline-lineedit {
+    width: 100%;
+    height: 50px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    background: none;
+    padding: 10px 80px 10px 20px;
+    font-size: 1em;
+    color: #273849;
+}
+
+.news .primary-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    margin: 0;
+    height: 40px;
+    padding: 0;
+    text-indent: 0;
+}
+
+.news {
+    margin: 5em;
+}
+
+.news .inner {
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.news form {
+    position: relative;
+}
+
+.footer {
+    padding: 40px 0;
+    background: #475050;
+    color: white;
+    text-align: center;
+    font-size: 0.98em;
+    font-weight: 400;
+    line-height: 1.5em;
+    word-break: 0.8px;
+}
