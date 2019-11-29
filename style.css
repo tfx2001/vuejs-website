@@ -49,7 +49,7 @@ a {
     padding: 0 15px 0 30px;
     color: #273849;
     transition: border-color 0.2s ease;
-    background: #fff url("/image/search.png") 8px 5px no-repeat;
+    background: #fff url("image/search.png") 8px 5px no-repeat;
     background-size: 20px;
 }
 
