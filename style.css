@@ -57,6 +57,10 @@ a {
     border-color: #42b983;
 }
 
+.sponsors .outline-button {
+    margin: 1em 0;
+}
+
 .nav li {
     color: #273849;
     margin: 0 0.5em;
